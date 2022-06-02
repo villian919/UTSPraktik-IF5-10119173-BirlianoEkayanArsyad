@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">UTSPraktik-IF5-10119173-BirlianoEkayanArsyad</string>
+    <string name="form">Form Pengisian Data</string>
+    <string name="Info">info</string>
+    <string name="Infodec">Form berikut ini bertujuan untuk memberikan informasi kepada pusat agar dapat mudah dilaporkan</string>
+    <string name="jenistes">Jenis Tes</string>
+    <string name="rapid">Rapid Antigen</string>
+    <string name="PCR">PCR</string>
+    <string name="Tanggal">Tanggal Terkonfirmasi</string>
+    <string name="pilihtgl">Pilih Tanggal</string>
+    <string name="nik">NIK</string>
+    <string name="nikin">Masukan NIK</string>
+    <string name="nama">Nama</string>
+    <string name="namain">Masukan Nama</string>
+    <string name="tgllahir">Tanggal Lahir </string>
+    <string name="jk">Jenis Kelamin</string>
+    <string name="Laki">Laki - laki</string>
+    <string name="peremouan">Perempuan</string>
+    <string name="Hugungan">Hubungan Dengan Anda</string>
+    <string name="Orangtua">Orangtua</string>
+    <string name="Suami">Suami/Istri</string>
+    <string name="Anak">Anak</string>
+    <string name="kerabat">Kerabat Lainya</string>
+    <string name="konfirmasi">Dengan ini saya menyetujui bahwa data yang saya isikan adalah benar</string>
+    <string name="tmbl">Selanjutnya</string>
+</resources>

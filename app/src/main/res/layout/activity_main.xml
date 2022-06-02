@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/form_pengis"
+            android:layout_width="188dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="81dp"
+            android:text="@string/form"
+            android:textAppearance="@style/form_pengis"
+            android:fontFeatureSettings="pnum, lnum"
+            android:gravity="top"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:id="@+id/rectangle_5"
+            android:layout_width="328dp"
+            android:layout_height="94dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="129dp"
+            android:background="@drawable/kotak"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="22dp"
+            android:layout_height="14dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="145dp"
+            android:text="@string/Info"
+            android:textAppearance="@style/info"
+            android:lineSpacingExtra="0sp"
+            android:gravity="top"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/form_beriku"
+        android:layout_width="296dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="171dp"
+        android:text="@string/Infodec"
+        android:textAppearance="@style/form_beriku"
+        android:lineSpacingExtra="4sp"
+        android:translationY="-1.97sp"
+        android:gravity="top"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/jenis_tes_h"
+        android:layout_width="100dp"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="247dp"
+        android:text="@string/jenistes"
+        android:textAppearance="@style/jenis_tes_h"
+        android:fontFeatureSettings="tnum, lnum"
+        android:gravity="top"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/rapid_antig"
+            android:layout_width="87dp"
+            android:layout_height="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="56dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="281dp"
+            android:text="@string/rapid"
+            android:textAppearance="@style/rapid_antig"
+            android:fontFeatureSettings="tnum, lnum"
+            android:gravity="top"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/pcr"
+        android:layout_width="27dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="321dp"
+        android:text="@string/PCR"
+        android:textAppearance="@style/pcr"
+        android:fontFeatureSettings="tnum, lnum"
+        android:gravity="top"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:id="@+id/ellipse_87"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="22dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="283dp"
+            android:background="@drawable/linkaranhijau"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/jenis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/ellipse_86"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="317dp"
+            android:background="@drawable/lingkaranputih" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jenis"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tangter1">
+
+        <TextView
+            android:id="@+id/tanggal_ter"
+            android:layout_width="328dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="20dp"
+            android:fontFeatureSettings="tnum, lnum"
+            android:gravity="top"
+            android:text="@string/Tanggal"
+            android:textAppearance="@style/tanggal_ter" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tangter1"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/hubungan_de"
+            android:layout_width="110dp"
+            android:layout_height="14dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="827dp"
+            android:layout_marginRight="16dp"
+            android:fontFeatureSettings="tnum, lnum"
+            android:gravity="top"
+            android:text="@string/Hugungan"
+            android:textAppearance="@style/hubungan_de" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/tagl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tangter1"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:layout_width="328dp"
+            android:layout_height="40dp"
+            android:background="@drawable/kotak_input"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/niik"
+        android:layout_below="@+id/tagl"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp">
+    <TextView
+        android:id="@+id/nik"
+        android:layout_width="328dp"
+        android:layout_height="14dp"
+        android:text="@string/nik"
+        android:textAppearance="@style/nik"
+        android:fontFeatureSettings="tnum, lnum"
+        android:gravity="top"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nikin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/niik"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:layout_width="328dp"
+            android:layout_height="40dp"
+            android:background="@drawable/kotak_input"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nama"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/nikin"
+        android:layout_marginLeft="20dp">
+    <TextView
+        android:id="@+id/nama_harus_"
+        android:layout_width="328dp"
+        android:layout_height="14dp"
+        android:text="@string/nama"
+        android:textAppearance="@style/nama_harus_"
+        android:fontFeatureSettings="tnum, lnum"
+        android:gravity="top"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/namain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nama"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:layout_width="328dp"
+            android:layout_height="40dp"
+            android:background="@drawable/kotak_input"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TGLLHR"
+        android:layout_below="@+id/namain"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp">
+    <TextView
+        android:id="@+id/tanggal_lah"
+        android:layout_width="328dp"
+        android:layout_height="14dp"
+        android:text="@string/Tanggal"
+        android:textAppearance="@style/tanggal_lah"
+        android:fontFeatureSettings="tnum, lnum"
+        android:gravity="top"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/tglin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TGLLHR"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:layout_width="328dp"
+            android:layout_height="40dp"
+            android:background="@drawable/kotak_input"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/jenklmn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tglin"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:id="@+id/jenkelin"
+            android:layout_width="328dp"
+            android:layout_height="14dp"
+            android:text="@string/jk"
+            android:textAppearance="@style/tanggal_lah"
+            android:fontFeatureSettings="tnum, lnum"
+            android:gravity="top"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/jenisa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jenklmn"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:layout_width="328dp"
+            android:layout_height="40dp"
+            android:background="@drawable/kotak_input"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+<LinearLayout
+    android:id="@+id/konfir"
+    android:layout_width="match_parent"
+    android:layout_height="32dp"
+    android:layout_below="@+id/jenisa"
+    android:layout_marginTop="30dp">
+    <TextView
+        android:id="@+id/dengan_ini_"
+        android:layout_width="296dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginBottom="56dp"
+        android:gravity="top"
+        android:lineSpacingExtra="4sp"
+        android:text="@string/konfirmasi"
+        android:textAppearance="@style/dengan_ini_"
+        android:translationY="-2.14sp" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/konfir"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="328dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
